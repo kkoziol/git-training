@@ -1,7 +1,7 @@
 # Przygotowania
 ## Instalacje
 - GIT
-- Tortoise
+- Tortoise (dla chętnych)
 - Babun (dla chętnych)
 - SourceTree (dla chętnych)
 
@@ -12,13 +12,30 @@
   -- Każde zadanie w podkatalogu "zadxx"
 
 # Zadania
-## Zad 00 
-- Zakładamy folder zad00 i w nim inicializujemy puste repozytorium GIT
-- ogladamy katlalogi ukryte
+## Zad 00 (clone)
+- W katalogu głównym "zadania"
+- klonujemy https://github.com/kkoziol/git-training.git
+- oglądamy sobie sklonowane repozytorium...
+- wykonujemy polecenie "./initialize.sh"
+
+## Zad 01 (init)
+- Zakładamy folder zad00 i w nim inicializujemy puste surowe repozytorium GIT
+- ogladamy katlalogi 
 - probojemy git status
 - probojemy git log
-- kasujemy .git
-- zakladamy repozytorium surowe. Jaka jest róznica?
+- kasujemy całą zarartośc katalogu
+- zakladamy repozytorium "normalne" Jaka jest róznica?
+- probojemy git status
+- probojemy git log
 
-## Zad 01
-- klonujemy https://github.com/kkoziol/git-training.git
+
+
+
+
+
+## Babun hint:
+```
+echo "set nobackup"   >> ~/.vimrc
+echo "set noswapfile" >> ~/.vimrc
+echo "set noundofile" >> ~/.vimrc
+```

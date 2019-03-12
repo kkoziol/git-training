@@ -8,8 +8,8 @@
 ## Konfiguracja
 - GIT
 - Katalogi
-  -- Zadania będziemy rozwiazywać w katalogu "zadania"
-  -- Każde zadanie w podkatalogu "zadxx"
+  - Zadania będziemy rozwiazywać w katalogu "zadania"
+  - Każde zadanie w podkatalogu "zadxx"
 
 # Zadania
 ## Zad 00 (clone)
@@ -30,7 +30,9 @@
 
 
 
+## Przydatne linki
 
+- .gitattributes https://github.com/alexkaratarakis/gitattributes
 
 
 ## Babun hint:

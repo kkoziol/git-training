@@ -34,6 +34,12 @@
 
 - .gitattributes https://github.com/alexkaratarakis/gitattributes
 
+## Aliasy
+
+```
+otaguj-zgubione = !git fsck --unreachable --lost-found --full | grep commit | cut -d\" \" -f3 | sed 's/\\(......\\)\\(.*\\)/found-\\1 \\1\\2/' | xargs -n2 git tag 
+```
+
 
 ## Babun hint:
 ```

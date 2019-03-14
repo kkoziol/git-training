@@ -68,3 +68,47 @@ echo "set nobackup"   >> ~/.vimrc
 echo "set noswapfile" >> ~/.vimrc
 echo "set noundofile" >> ~/.vimrc
 ```
+
+## Zadanie samodzielne
+```
+- utwórz repozytorium init.cmd
+git clone repo repo-ala
+
+git config --local user.name "Ala"
+git config --local user.email ala@ala
+- utworz kilka commitów
+git push
+- utwórz repozytorium typu --bare
+- w repo-ala
+git remote remove origin
+git remote add origin ..\repo.git
+git push --tags -u origin master:master
+- w repo
+git remote add origin ..\repo.git
+git fetch origin master
+- dodaj commity
+git push --set-upstream origin master
+- w repo-ala
+git fetch
+git merge origin/master
+git branch
+git branch -r
+git branch -a
+git remote show origin
+git branch -vv
+- utwórz branch i dodaj commity
+git push -u origin b1:nowa
+git push origin --delete nowa
+git push origin :nowa
+git checkout master
+- w repo
+git fetch orgin
+git merge origin/b1
+git checkout -b b1 origin/b1
+git push origin --delete b1
+git push origin b1
+
+- klonowanie
+
+git clone --depth 1 file://c:/workspace/repo.git test1
+```
